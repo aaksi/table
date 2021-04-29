@@ -1,0 +1,158 @@
+@import "fonts";
+@import "global";
+
+
+.fances{
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        // margin-right: 32px;
+        max-width: 270px;
+    }
+    &__lefr-title{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
+        font-family: 'Gotham Pro Medium';
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #E6E6E6;
+        margin-bottom: 10px;
+    }
+    &__list-item{
+        width: 20%;
+        text-align: center;
+    }
+    &__list-color{
+        display: inline-block;
+        // margin: 0 auto;
+        width: 36px;
+        height: 36px;
+        background-color: #FFCC00;
+        border-radius: 50%;
+        margin-bottom: 8px;
+    }
+    &__list-name{
+        p{
+            font-size: 11px;
+            line-height: 15px;
+            margin: 0;
+            color: #5B5B5B;
+        }
+        margin-bottom: 20px;
+    }
+    &__left-descr{
+        font-size: 12px;
+        line-height: 19px;
+        color: #5B5B5B;
+    }
+}
+.fances__left{
+
+}
+.fances__tables{
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+   
+    th{
+        background-color: #F4F4F4;
+        font-weight: 400;
+        padding: 8px;
+        
+        p{
+            display: block;
+            margin: 0;
+        }
+    }
+}
+.table{
+    margin-bottom: 30px;
+    border-spacing: 5px;
+    &__wrapper{
+        
+    }
+    &__name{
+        width: 250px;
+        
+    }
+    &__width{
+        width: 80px;
+    }
+    &__notes{
+        width: 80px;
+        &--question{
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 5px;
+                background-image: url('../images/icons/question.svg');
+                width: 12px;
+                height: 13px;
+                background-size: cover;
+            }
+        }
+    }
+    &__holes{
+        width: 100px;
+    }
+    &__weight{
+        width: 80px;
+    }
+    &__amount{
+        width: 105px;
+    }
+    &__price{
+        width: 125px;
+    }
+    &__img{
+        margin-bottom: 10px;
+        vertical-align: top;
+    }
+    &__img-descr{
+        max-width: 170px;
+        font-family: 'Gotham Pro Medium';
+        font-weight: 500;
+    }
+    &__name--info{
+        background-color: #F4F4F4;
+        width: 75px;
+        text-align: center;
+    }
+    &__notes-wrap{
+        .table__hide{
+            height: 33px;
+            background-color: #fff;
+        }
+    }
+    &__width--numbers{
+        text-align: center;
+        width: 100%;
+
+        td{
+            text-align: center;
+            vertical-align: middle;
+            padding: 7px;
+        }
+        tr:nth-child(even){
+            background-color: #F4F4F4;  
+        }
+    
+    }
+    &__amount--info{
+        text-align: center;
+        background-color: #F4F4F4;  
+    }
+    
+    &__width--price{
+        font-family: 'Gotham Pro Medium';
+        font-weight: 500;
+    }
+}

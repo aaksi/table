@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+html,
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+body{
+    font-family: 'Gotham Pro';
+    color: #222222;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

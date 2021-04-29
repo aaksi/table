@@ -1,0 +1,18 @@
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-BoldItalic.eot');
+	src: local('Gotham Pro '), local('GothamPro'),
+		url('../fonts/GothamPro.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Medium';
+	src: url('GothamPro-BoldItalic.eot');
+	src: local('Gotham Pro Medium'), local('GothamProMedium'),
+		url('../fonts/GothamPro-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
