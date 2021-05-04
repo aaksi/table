@@ -16,3 +16,11 @@
 	font-weight: 500;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Gotham Pro Bold';
+	src: url('GothamPro-BoldItalic.eot');
+	src: local('Gotham Pro Bold'), local('GothamProBold'),
+		url('../fonts/GothamPro-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}

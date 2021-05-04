@@ -47,6 +47,7 @@ function scripts(){
         'node_modules/jquery/dist/jquery.js',
         'node_modules/slick-carousel/slick/slick.js',
         'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
+        'node_modules/tabbyjs/dist/js/tabby.js',
         'app/js/main.js'
     ])
     .pipe(concat('main.min.js'))
@@ -72,6 +73,7 @@ function libs(){
     return src([
         'node_modules/normalize.css/normalize.css',
         'node_modules/slick-carousel/slick/slick.css',
+        // 'node_modules/tabbyjs/dist/css/tabby-ui.css',
         'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css'])
         .pipe(concat('libs.min.css'))
         .pipe(cssmin())
